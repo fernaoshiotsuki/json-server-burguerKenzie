@@ -4,13 +4,14 @@ const auth = require("json-server-auth");
 
 const app = jsonServer.create();
 const router = jsonServer.router("db.json");
-const port = process.env.PORT || 3333;
+const port = process.env.PORT || 3001;
 
 app.db = router.db;
 
 const rules = auth.rewriter({
   "/users*": "/600/users$1",
-  "/tasks*": "/600/tasks$1",
+  "/products*": "/444/products$1",
+  "/cart*": "600/cart$1",
 });
 
 app.use(cors());
