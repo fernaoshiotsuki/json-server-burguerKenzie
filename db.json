@@ -6,6 +6,13 @@
       "name": "Zabuza",
       "age": "68",
       "id": 1
+    },
+    {
+      "email": "sarada@shinobi.com",
+      "password": "$2a$10$/TrBV99o8AsZdORyAWMP/.7RPI8BuSoEfvg0BhHqZ9Iiz.1qnbsIe",
+      "name": "sarada",
+      "age": "18",
+      "id": 2
     }
   ],
   "products": [
@@ -64,5 +71,21 @@
       "img": "https://i.ibb.co/QNb3DJJ/milkshake-ovomaltine.png"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "1",
+      "userId": "1",
+      "naruto": "hokage"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "naruto": "sasuke"
+    },
+    {
+      "id": "23",
+      "userId": "2",
+      "naruto": "ninnin"
+    }
+  ]
 }
