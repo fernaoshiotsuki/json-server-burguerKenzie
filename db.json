@@ -13,58 +13,85 @@
       "name": "sarada",
       "age": "18",
       "id": 2
+    },
+    {
+      "email": "fernaospalma@gmail.com",
+      "password": "$2a$10$TllAIhsGsoK95Lm/Qtc.ZunbUcWrqAmoNo.TDb47N1.DbfF2lq7eq",
+      "name": "Fernão Shiotsuki",
+      "confirmPassword": "123456",
+      "id": 3
+    },
+    {
+      "email": "kakashi@shinobi.com",
+      "password": "$2a$10$kBB5xz96UFtI1BTVmuNIuOxXRyOjlNWdMvsrUQ05KUJhr9D45G2Fe",
+      "confirmPassowrd": "123456",
+      "name": "kakashi",
+      "id": 4
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$kBwTUA0GuBVrbK6J7SzlQuMUSNGg8Jqwxb5fq61bYtC9xAsYB81mS",
+      "name": "teste",
+      "confirmPassword": "123456",
+      "id": 5
+    },
+    {
+      "email": "naruto@gmail.com",
+      "password": "$2a$10$aunvBJdXG01x.pib/SVDA.xqDoJhu66ySArV8mAAqGopE/v7MvK96",
+      "name": "naruto",
+      "confirmPassword": "123456",
+      "id": 6
+    },
+    {
+      "email": "naruto@hokage.com",
+      "password": "$2a$10$Ykr2FC3Oo7d9s475bM8e9u8oE/VKknHZGQgkk2zBKalY.gGI17IQi",
+      "name": "Fernão Shiotsuki",
+      "confirmPassword": "123456",
+      "id": 7
     }
   ],
   "products": [
     {
       "name": "Hamburguer",
       "price": "14.00",
-      "id": "1",
       "type": "sanduiche",
       "img": "https://i.ibb.co/fpVHnZL/hamburguer.png"
     },
     {
       "name": "X-burguer",
       "price": "16.00",
-      "id": "2",
       "type": "sanduiche",
       "img": "https://i.ibb.co/djbw6LV/x-burgue.png"
     },
     {
       "name": "Big-Kenzie",
       "price": "18.00",
-      "id": "3",
       "type": "sanduiche",
       "img": "https://i.ibb.co/FYBKCwn/big-kenzie.png"
     },
     {
       "name": "Combo Kenzie",
       "price": "26.00",
-      "id": "4",
       "type": "Combos"
     },
     {
       "name": "Combo Destemido",
       "price": "50.00",
-      "id": "5",
       "type": "Combos"
     },
     {
-      "id": "6",
       "name": "Fanta Guaraná",
       "category": "Bebidas",
       "price": "5.00",
       "img": "https://i.ibb.co/cCjqmPM/fanta-guarana.png"
     },
     {
-      "id": "7",
       "name": "Coca",
       "category": "Bebidas",
       "price": "4.99",
       "img": "https://i.ibb.co/fxCGP7k/coca-cola.png"
     },
     {
-      "id": "6",
       "name": "Fanta",
       "category": "Bebidas",
       "price": "4.99",
@@ -86,6 +113,20 @@
       "id": "23",
       "userId": "2",
       "naruto": "ninnin"
+    },
+    {
+      "name": "Hamburguer",
+      "price": "14.00",
+      "type": "sanduiche",
+      "userId": 2,
+      "id": "SUZda6t"
+    },
+    {
+      "name": "Hamburguer",
+      "price": "14.00",
+      "type": "sanduiche",
+      "userId": 2,
+      "id": "OwX3Klv"
     }
   ]
 }
