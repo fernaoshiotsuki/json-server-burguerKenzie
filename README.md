@@ -1,6 +1,7 @@
 # Api json-server Hamburgueria
 
-Api para simular uma hamburgueria.
+Api para simular uma hamburgueria.</br>
+base URL:https://json-server-hamburgueriakenzie.herokuapp.com/
 
 
 # Cadastro
